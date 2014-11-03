@@ -1,0 +1,597 @@
+.user_content iframe {
+	width: 100%;} 
+
+h2.course-title.ellipsis {
+	visibility: hidden;}
+
+.show-content.user_content.enhanced {
+	padding: 0px 0px !important;}
+	
+h2.page-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 4em;
+	color: white;
+	background-color: #24618c;
+	padding: 10px;
+	padding-left: 2.66%;
+	margin: 0px; 
+	line-height: 1em;}
+
+/* CONTAINER, CONTENT (BACKGROUNDS)
+===============================*/
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	padding-left: 2%;
+	padding-bottom: 80px;
+	overflow: visible;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 0px;
+	background: #24618c;}
+	
+.container.menu {
+	padding-left: 50px;
+}
+
+.container:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+
+.content {
+	width:95%;
+	margin: 0 auto;
+	padding: 10px 2%;
+	background: rgb(255,255,255); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmY2ZjZmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(252,252,252,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(252,252,252,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(252,252,252,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(252,252,252,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(252,252,252,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(252,252,252,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-8 */
+	border-radius: 5px;
+	behavior: url(https://elearning2.courses.ufl.edu/access/content/group/UFL-40444-12014/PIE-1/PIE.htc);
+	box-shadow: 0px 2px 3px 0px #363b44;
+	behavior: url(https://elearning2.courses.ufl.edu/access/content/group/UFL-40444-12014/PIE-1/PIE.htc);
+	overflow: visible;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;}
+	
+/*===============================
+END CONTAINER CONTENT (BACKGROUNDS) */
+
+/* HOMEPAGE
+===============================*/
+.head {
+	width: auto;
+	height: auto;
+	min-height: 220px;
+	padding: 20px;
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 6%;
+	max-height: 220px;
+	margin-top: 20px;
+	-ms-word-break: break-word;
+	word-break: break-word;
+	background: transparent;
+	border: 0px;
+	border-radius: 0;
+	box-shadow: none;}
+
+.prof {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 5px solid whitesmoke;
+	background-repeat: no-repeat;
+	box-shadow: 0px 1px 1px rgba(48,48,48,1);
+	background-size: cover;
+	position: absolute;}	
+	
+.title {
+	margin-left: 240px;
+	margin-top: 10px;
+	color: white;
+	font-family: sans-serif;
+	min-height: 220px;
+	-webkit-font-smoothing: antialiased !important;}
+	
+h2.course_name {
+	font-size: 400%;
+	font-weight: 600;
+	line-height: 1.1em;
+	margin: 0;
+	border-bottom: 2px solid orange;
+	text-shadow: 0px 1px 1px rgba(48,48,48,1);}
+	
+h4.course_sub {
+	font-size: 250%;
+	font-weight: 400;
+	line-height: 1.1em;
+	margin: 0;
+	border-bottom: none;
+	text-shadow: 0px 1px 1px rgba(48,48,48,1);}
+	
+.title ul.nav {
+	display: block;
+	position: relative;
+	margin-left: 0;}
+	
+.title ul.nav li {
+	list-style: none;
+	float: left;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px 10px; 
+	border: none;
+	background: transparent;
+	border-radius: 0;}
+
+.title ul.nav li+li {border-left: 1px solid orange;}
+
+.title ul.nav a {
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	width: auto;
+	text-decoration: none;
+	transition: color 0.5s ease;
+	letter-spacing: 1px;
+	border-bottom: none;}
+
+.title ul.nav a:hover {
+	color: #ff9d42;
+	border-bottom: none;}
+
+.button {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	border-radius: 100%;
+	box-shadow: 0px 1px 1px rgba(48,48,48,1) ;
+	background-color: rgba(233,233,233,1);  
+	transition: width .25s ease-in-out, height .25s ease-in-out, border-radius .25s ease-in-out;
+	position: relative;}
+
+.button:hover {
+	width: 150px;
+	height: 150px;}
+	
+.button a {
+	font-family: "Lato",sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	width: 150px;
+	height: auto;
+	display: block;
+	padding: 150px 0px 0px 0px;
+	color: white;
+	text-align: center;
+	line-height: 1.25em;
+	transition: padding .5s ease, background-color .75s ease, border-radius .75s ease;
+	font-weight: 300;
+	letter-spacing: .5px;
+	position: relative;
+	left: 0px;
+	top: 10px;}
+
+.button a:hover {
+	padding: 50px 0px 110px 0px;
+	width: 150px;
+	height: auto;
+	border-radius: 100%;
+	font-weight: 300;
+	color: white;}
+	
+.button a:visited {
+	color: white;
+}
+	
+.grow {
+	position: relative;
+	top: 0px;
+	width: 150px;
+	height: 150px;
+	padding: 0;
+	background-color: rgba(235,142,0,0);
+	border-radius: 0;
+	transition: background-color .75s ease, border-radius .75s ease;}
+	
+.grow:hover {	
+	padding: 0;
+	background-color: rgba(235, 120, 50, .9);
+	border-radius: 100%;}
+
+.m0 {
+	background-image: url("https://media.ufonline.ufl.edu/Business_Administration/_css_Business_Administration/img/menu_icons/00-start.png");
+	background-repeat: no-repeat;
+	background-position:center center; 
+	background-size: auto;}
+	
+/*===============================
+END HOMEPAGE */
+
+	
+
+/* COLUMN
+===============================*/
+.column {
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: none;}
+
+.column:first-child {
+	margin-left: 0;}
+	
+.column:last-child {
+	margin-right: 0;}
+	
+.column.full {
+	width: 100%;}
+
+.column.three-fourths {
+	width: 63.75%;}	
+  
+.column.two-thirds {
+	width: 65.33333333333333%;}
+  
+.column.half {
+	width: 48%; }
+ 
+.column.one-third {
+	width: 30.66666666666667%;}
+ 
+.column.one-fourth {
+	width: 22%;}	
+	
+.menu .column.one-fourth {
+	width: auto;
+}	
+
+.menu .column.one-third {
+	width: auto;
+}	
+	
+	/*===============================
+END COLUMN */
+
+/* ROW
+===============================*/
+.clearfix {*zoom: 1;}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;}
+ 
+.clearfix:after {
+  clear: both;}
+ 
+.row {
+  overflow: visible;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  clear:both;}
+/*===============================
+END ROW */
+
+/* H1, H3, H4, H5
+===============================*/
+h1 {
+font-size: 2.5em;
+-webkit-font-smoothing:subpixel-antialiased;
+font-family: "Lato", sans-serif;
+font-weight: 300;
+}
+
+h3 {
+padding: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 1.8em;
+letter-spacing: .05em;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+color: #3c3c3c;
+border-bottom: 2px solid #ff9d42;
+}
+
+h4 {
+font-size: 1.6em;
+font-weight: 500;
+font-family: "Lato",sans-serif;
+
+position: relative;
+background-color: transparent;
+border-radius: 0px;
+width: 100%;
+padding: 0 0 3px 0;
+letter-spacing: 0.04em;
+
+
+margin-bottom: 0px;
+margin-top: 10px;
+margin-left: 0px;
+border-bottom: 2px solid #9e9e9e;
+border-top: 0px;
+border-right: 0px;
+border-left: 0px;
+}
+
+h5 {
+font-family: "Lato", sans-serif;
+font-size: .9em;
+word-spacing: 0.05em;
+letter-spacing: .01em;
+color: black;	
+}
+/*===============================
+END H1, H3, H4, H5 */
+
+/* HEADER
+===============================*/
+.header {
+width: auto;
+position: relative;
+padding:  1% 1%;
+padding-left: 5%;
+padding-bottom: 0;
+color: white;
+height: auto;
+background-color: #24618c;
+}
+/* ===============================
+END HEADER */
+
+/* SUBTITLE
+===============================*/
+.subtitle {
+	background-color: #24618c;
+	
+	p {
+		color: white;
+		letter-spacing: .08em;
+		font-weight: 300;
+		font-size: 1.5em;
+		padding-left: 2.66%;
+		margin: 0;}
+		}
+		
+/* ===============================
+END SUBTITLE */
+
+/* PARAGRAPH
+===============================*/
+p {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 1.35em;
+	line-height: 1.5em;
+	word-spacing: 0.05em;
+	letter-spacing: 0.01em;
+	margin: 10px 0px 5px 0px;
+	font-weight: 400;
+	padding-right: 20px;
+	
+	
+	strong {font-weight: bold;}
+
+	em {font-style: italic;}
+	}
+/* ===============================
+END PARAGRAPH */
+
+/* LINKS
+===============================*/
+a {
+color: #24618c;
+transition: color .3s ease;
+}
+
+a:hover {
+color:#ff9d42;
+}
+
+a:visited {
+	color: gray;
+}
+/* ===============================
+END LINKS */
+
+/* LISTS 
+===============================*/
+ul {
+	margin-left: 5%;
+	padding-top: 5px;
+	font-style: inherit;
+	margin-bottom: 5px;}
+
+ul li {
+	list-style: disc;
+	font-family: 'Helvetica', serif;
+	font-size: 18px;
+	line-height: 1.65em;
+	word-spacing: 0.1em;}
+
+ol {
+	margin-left: 5%;
+	padding-top: 5px;
+	font-style: inherit;
+	margin-bottom: 5px;	}
+
+ol li {
+	font-family: 'Helvetica', serif;
+	line-height: 1.65em;
+	word-spacing: 0.1em;
+	font-size: 18px;}
+
+ol li p {
+	font-size: 18px;}
+	
+/* ===============================
+END LISTS*/
+
+/* NAVIGATION
+===============================*/
+	ul.nav {
+		display: block;
+		margin-top: 10px;
+		margin-left: 2.5%;
+	
+		li {
+		list-style: none;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		background: #FCFCFC;
+		padding: 5px 10px;
+		border: 1px solid #D3D3D3;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+
+		a {
+			color: black;
+			font-size: 16px;
+			font-family: 'Lato', sans-serif;
+			width: auto;
+			padding-bottom: 0px;
+			text-decoration: none;
+			border-bottom: 2px solid #FCFCFC;
+			background-color: transparent;
+			transition: border-bottom 0.5s ease;}
+
+		a:hover {border-bottom: 2px solid #ff9d42;}
+		} /*end li*/
+		} /*end ul*/	
+/* ===============================
+END NAVIGATION */
+
+
+
+/* BACK TO TOP 
+===============================*/
+.back {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	a {
+		font-family: 'Lato', sans-serif;
+		font-size: small;
+		color:#303030;
+		border-radius: 0px;
+		background-color: transparent;
+		padding: 5px;
+		text-decoration: none;
+		border-top: 2px solid transparent; 
+		border-right: 2px solid #ff9d42;
+		border-bottom: 2px solid #ff9d42;
+		border-left: 2px solid transparent;
+		transition: border-top .3s ease, border-right .3s ease, border-bottom .3s ease, border-left .3s ease;}
+	
+	a:hover {
+		border-top: 2px solid #ff9d42;
+		border-right: 2px solid transparent;
+		border-bottom: 2px solid transparent;
+		border-left: 2px solid #ff9d42;}
+		} /*end .back*/
+/* ===============================
+END BACK TO TOP */
+
+
+/* BREAKPOINTS
+===============================*/
+@media screen and (max-width: 1300px) {
+	.content {
+	.column.full,
+	.column.two-thirds,
+	.column.half,
+	.column.one-third,
+	.column.one-fourth {
+		margin: 0px;
+		margin-bottom: 10px;
+		width: 100%;}
+		} /*END .content*/
+		
+	.column.one-fourth {
+		margin-bottom: 60px;
+		width: 30%;
+	}	
+    
+	
+	ul, ol {margin-left: 5%;}  
+	h1 {font-size: 300%;}
+	h3 {font-size: 150%;}
+	}
+	
+@media screen and (max-width: 1300px) {
+	h2.course_name {
+		font-size: 250%;}
+	
+	h4.course_sub {
+		font-size: 200%;
+		font-weight: 400;}}
+
+	 
+/* ===============================
+END BREAKPOINTS */
+
+
+/*SYLLABUS HEADER
+Currently not possible to implement due to specificity restrictions. ".syllabus" is in the same body tag as ".context-course_" and complicates specifying a particular style for each template. 
+
+.syllabus #content.container-fluid h1 {
+	background-color: #24618c;
+	font-family: 'Lato', sans-serif;
+	font-size: 3.5em;
+	color: white;
+	padding: 10px;
+	padding-left: 2.5%;
+	margin: 0px;
+	line-height: 1em;}
+
+.syllabus #content.container-fluid a.jump_to_today_link {
+	color: white;
+	position: relative;
+	top: 25px;
+	right: 10px;}	*/
+
+	// HIDES DISCUSSION AVATAR AND AUTHOR
+#discussion_topic { 
+	a.author, a.avatar, .discussion-pubdate {
+		display: none;}
+
+	header.discussion-section.clearfix {
+		width: auto;
+		height: auto;
+		padding: 10px;
+		padding-left: 20px;
+		background: #24618c;
+		font-family: "Lato", sans-serif;
+		font-size: 1.5em;
+		font-weight: 300;
+		color: white;
+		line-height: 1.1em;
+		display: block;
+		letter-spacing: 1px;}
+}// END #discussion_topic
+	
+.topic h1.discussion-title {
+	font-weight: 300;}
+	
