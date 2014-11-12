@@ -1,0 +1,33 @@
+@mixin grow-style{
+	background-repeat: no-repeat;
+	background-position: center center;}
+	
+// .context-course_...	{
+
+.prof {
+	background-image: url("../_img/prof_img/placeholder.png");
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 5px solid whitesmoke;
+	background-repeat: no-repeat;
+	box-shadow: 0px 1px 1px rgba(48,48,48,1);
+	background-size: cover;
+	position: absolute;}	
+
+.m0 {
+	background-image: url("../_img/menu_icons/_default/module.png"); 
+	@include grow-style;}
+.m1 {
+	background-image: url("../_img/menu_icons/_default/module.png"); 
+	@include grow-style;}
+.m2 {
+	background-image: url("../_img/menu_icons/_default/module.png"); 
+	@include grow-style;}
+.m3 {
+	background-image: url("../_img/menu_icons/_default/module.png"); 
+	@include grow-style;}
+.m4 {
+	background-image: url("../_img/menu_icons/_default/module.png"); 
+	@include grow-style;}
+// } end .context-course_...		
