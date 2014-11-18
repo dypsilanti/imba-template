@@ -384,16 +384,16 @@ END PARAGRAPH */
 
 /* LINKS
 ===============================*/
-a {
+.content a {
 color: #24618c;
 transition: color .3s ease;
 }
 
-a:hover {
+.content a:hover {
 color:#ff9d42;
 }
 
-a:visited {
+.content a:visited {
 	color: gray;
 }
 /* ===============================
