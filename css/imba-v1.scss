@@ -1,24 +1,46 @@
+.context-course_ {
+
+/*IMBA TEMPLATE*/				/* &290915 */
+/*F14 ACG5065 KNECHEL*/			&270284,
+/*F14 BUL5810 DIMATEO*/  		&270280,
+/*F14 BUL5810 DIMATEO*/  		&304999,
+/*F14 ECP5705 RUSH*/			&270282,
+/*F14 FIN6626 NARANJO IC08*/ 	&270279,
+/*F14 FIN6626 NARANJO IC09*/	&304998,	
+/*F14 GEB5212 BARNES*/ 			&270281,
+/*F14 GEB5212 MCCAWLEY*/ 		&270283,
+/*F14 NET1000 GRAFF*/			&313314,
+/*F14 NET1000 WP */				&280388,
+
+/*S15 FIN5405 Houston*/			&313868,
+/*S15 FIN6425 133H NIMAL*/		&312992,
+/*S15 FIN6425 1334 NIMAL*/		&312993,
+/*S15 FIN6626 Naranjo*/			&313879,
+/*S15 MAN5501 VAKHARIA*/		&313114, &314066,
+/*S15 MAR6930 Sturdivant*/		&312995, &312994,
+/*S15 QMB5303 PATHAK*/  		&313874 {
+
+#wiki_page_show {
+	
 .user_content iframe {
 	width: 100%;} 
-
-h2.course-title.ellipsis {
-	visibility: hidden;}
-
-.show-content.user_content.enhanced {
-	padding: 0px 0px !important;}
 	
-h2.page-title {
-	font-family: 'Lato', sans-serif;
-	font-size: 4em;
-	color: white;
+.show-content.user_content.enhanced {
+	padding: 0px 0px;}
+	
+h1.page-title {
 	background-color: #24618c;
+	font-family: 'Lato', sans-serif;
+	font-size: 4em; //changed to 3.5
+	color: white;
 	padding: 10px;
-	padding-left: 2.66%;
+	padding-left: 4.5%;
 	margin: 0px; 
 	line-height: 1em;}
 
-/* CONTAINER, CONTENT (BACKGROUNDS)
-===============================*/
+
+/* CONTAINER, CONTENT (BACKGROUNDS)*/
+
 .container {
 	position: relative;
 	width: 100%;
@@ -32,11 +54,6 @@ h2.page-title {
 	box-sizing: border-box;
 	border-radius: 0px;
 	background: #24618c;}
-	
-.container.menu {
-	padding-left: 50px;
-}
-
 .container:after {
 	content: "\0020";
 	display: block;
@@ -62,10 +79,13 @@ h2.page-title {
 	behavior: url(https://elearning2.courses.ufl.edu/access/content/group/UFL-40444-12014/PIE-1/PIE.htc);
 	box-shadow: 0px 2px 3px 0px #363b44;
 	behavior: url(https://elearning2.courses.ufl.edu/access/content/group/UFL-40444-12014/PIE-1/PIE.htc);
+
 	overflow: visible;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box;}
+	box-sizing: border-box;
+}
+
 	
 /*===============================
 END CONTAINER CONTENT (BACKGROUNDS) */
@@ -89,9 +109,19 @@ END CONTAINER CONTENT (BACKGROUNDS) */
 	border-radius: 0;
 	box-shadow: none;}
 
+.prof {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 5px solid whitesmoke;
+	background-repeat: no-repeat;
+	box-shadow: 0px 1px 1px rgba(48,48,48,1);
+	background-size: cover;
+	position: absolute;}	
+	
 .title {
 	margin-left: 240px;
-	margin-top: 0px;
+	margin-top: 10px;
 	color: white;
 	font-family: sans-serif;
 	min-height: 220px;
@@ -116,8 +146,7 @@ h4.course_sub {
 .title ul.nav {
 	display: block;
 	position: relative;
-	margin-left: 0;
-	padding: 0px;}
+	margin-left: 0;}
 	
 .title ul.nav li {
 	list-style: none;
@@ -209,7 +238,14 @@ h4.course_sub {
 /*===============================
 END HOMEPAGE */
 
+/*IMAGE CAPTIONS*/
+	.caption a {
+		font-size: small;
+		display: block;
+		text-align: right;}
 	
+	.caption img {
+		width: 100%;}	
 
 /* COLUMN
 ===============================*/
@@ -220,14 +256,15 @@ END HOMEPAGE */
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	max-width: none;}
-
-.column:first-child {
+	max-width: none;
+	
+	&:first-child {
 	margin-left: 0;}
 	
-.column:last-child {
+	&:last-child {
 	margin-right: 0;}
-	
+}
+
 .column.full {
 	width: 100%;}
 
@@ -289,7 +326,6 @@ font-weight: 300;
 h3 {
 padding: 0px;
 margin-top: 0px;
-margin-bottom: 0px;
 font-size: 1.8em;
 letter-spacing: .05em;
 font-family: 'Lato', sans-serif;
@@ -382,53 +418,55 @@ p {
 /* ===============================
 END PARAGRAPH */
 
-/* LINKS
-===============================*/
-.content a {
-color: #24618c;
-transition: color .3s ease;
-}
+	/* LINKS
+	===============================*/
+.content {
+	a {
+	color: #24618c;
+	transition: color .3s ease;
+	}
 
-.content a:hover {
-color:#ff9d42;
-}
+	a:hover {
+	color:#ff9d42;
+	}
 
-.content a:visited {
-	color: gray;
-}
-/* ===============================
-END LINKS */
+	a:visited {
+		color: gray;
+	}
 
-/* LISTS 
-===============================*/
-ul {
-	margin-left: 5%;
-	padding-top: 5px;
-	font-style: inherit;
-	margin-bottom: 5px;}
+	/* ===============================
+		END LINKS */
 
-ul li {
-	list-style: disc;
-	font-family: 'Helvetica', serif;
-	font-size: 18px;
-	line-height: 1.65em;
-	word-spacing: 0.1em;}
+	/* LISTS 
+	===============================*/
+	ul {
+		margin-left: 5%;
+		padding-top: 5px;
+		font-style: inherit;
+		margin-bottom: 5px;}
 
-ol {
-	margin-left: 5%;
-	padding-top: 5px;
-	font-style: inherit;
-	margin-bottom: 5px;	}
+	ul li {
+		list-style: disc;
+		font-family: 'Helvetica', serif;
+		font-size: 18px;
+		line-height: 1.65em;
+		word-spacing: 0.1em;}
 
-ol li {
-	font-family: 'Helvetica', serif;
-	line-height: 1.65em;
-	word-spacing: 0.1em;
-	font-size: 18px;}
-
-ol li p {
-	font-size: 18px;}
+	ol {
+		margin-left: 5%;
+		padding-top: 5px;
+		font-style: inherit;
+		margin-bottom: 5px;	}
 	
+	ol li {
+		font-family: 'Helvetica', serif;
+		line-height: 1.65em;
+		word-spacing: 0.1em;
+		font-size: 18px;}
+	
+	ol li p {
+		font-size: 18px;}
+}		
 /* ===============================
 END LISTS*/
 
@@ -488,7 +526,8 @@ END NAVIGATION */
 		border-right: 2px solid #ff9d42;
 		border-bottom: 2px solid #ff9d42;
 		border-left: 2px solid transparent;
-		transition: border-top .3s ease, border-right .3s ease, border-bottom .3s ease, border-left .3s ease;}
+		transition: border-top .3s ease, border-right .3s ease, 
+		border-bottom .3s ease, border-left .3s ease;}
 	
 	a:hover {
 		border-top: 2px solid #ff9d42;
@@ -513,12 +552,7 @@ END BACK TO TOP */
 		margin-bottom: 10px;
 		width: 100%;}
 		} /*END .content*/
-		
-	.column.one-fourth {
-		margin-bottom: 60px;
-		width: 30%;
-	}	
-    
+ 
 	
 	ul, ol {margin-left: 5%;}  
 	h1 {font-size: 300%;}
@@ -537,6 +571,7 @@ END BACK TO TOP */
 /* ===============================
 END BREAKPOINTS */
 
+}//END #wiki_page_show
 
 /*SYLLABUS HEADER
 Currently not possible to implement due to specificity restrictions. ".syllabus" is in the same body tag as ".context-course_" and complicates specifying a particular style for each template. 
@@ -579,4 +614,7 @@ Currently not possible to implement due to specificity restrictions. ".syllabus"
 	
 .topic h1.discussion-title {
 	font-weight: 300;}
+}} //END CONTEXT-COURSE
+		
+	
 	
