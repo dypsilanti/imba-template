@@ -64,7 +64,7 @@ p.hours {
 p.icon_list {
 	background: url("img/icon_list.png") no-repeat 0% 0%;}
 p.lecture {
-	background: url("img/inline_icons/lecture.png") no-repeat 0% 0%;}
+	background: url("img/inline_icons/lecture-icon.png") no-repeat 0% 0%;}
 p.link {
 	&:before {
 	color:black;
@@ -93,7 +93,7 @@ p.pdf {
 	content: "\F200";
 	@include icon-style;}}
 p.phone {
-	background: url("img/inline_icons/phone.png") no-repeat 0% 0%;}
+	background: url("img/inline_icons/phone-icon.png") no-repeat 0% 0%;}
 p.ppt {
 	&:before {
 	color:#f36b03;
@@ -125,7 +125,9 @@ p.skype {
 	content: "\F213";
 	@include icon-style;}}
 p.smiley {
-	background: url("img/inline_icons/smiley.png") no-repeat 0% 0%;}
+	background: url("img/inline_icons/smiley-icon.png") no-repeat 0% 0%;}
+p.storify {
+	background: url("img/inline_icons/storify-icon.png") no-repeat 0% 0%;}
 p.twitter {
 	&:before {
 	color:#4099ff;
