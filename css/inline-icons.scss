@@ -17,9 +17,10 @@ margin-right: 8px;}
 p.access {
 	background: url("img/inline_icons/access.png") no-repeat 0% 0%;}
 p.assignment {
+	&:before {
 	color: #000000;
 	content: "\F1C2";
-	@include icon-style;}
+	@include icon-style;}}
 p.book {
 	&:before {
 	color:#a22c43;
