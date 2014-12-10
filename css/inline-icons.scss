@@ -18,7 +18,7 @@ p.access {
 	background: url("img/inline_icons/access.png") no-repeat 0% 0%;}
 p.assignment {
 	&:before {
-	color: #000000;
+	color: #37a537;
 	content: "\F1C2";
 	@include icon-style;}}
 p.book {
