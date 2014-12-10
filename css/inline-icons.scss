@@ -111,7 +111,10 @@ p.self_test, p.tests {
 	content: "\F1CE";
 	@include icon-style;}}
 p.settings {
-	background: url("img/inline_icons/settings.png") no-repeat 0% 0%;}
+	&:before {
+	color:#383838;
+	content: "\f19e";
+	@include icon-style;}}
 p.skype {
 	&:before {
 	color:#12a5f4;
