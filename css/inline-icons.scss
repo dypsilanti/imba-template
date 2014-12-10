@@ -99,7 +99,10 @@ p.ppt {
 	content: "\F1F5";
 	@include icon-style;}}
 p.quiz,p.quizzes_tap {
-	background: url("img/inline_icons/quiz.png") no-repeat 0% 0%;}
+	&:before {
+	color:#f36b03;
+	content: "\F190";
+	@include icon-style;}}
 p.rss {
 	&:before {
 	color:#f36b03;
