@@ -1,7 +1,9 @@
+/*
 @font-face {
 	font-family: "canvas-icons";
 	src: url("../../canvas-lms/public/font/canvas/canvas-icons.woff")
 }
+*/
 
 @mixin icon-style {
 display: inline-block;
@@ -9,11 +11,9 @@ font-family: "canvas-icons";
 line-height: 1;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-margin-right: 8px;}
+margin-right: 10px;}
 
-/* #wiki_page_show { */
-
-//Below are the current styles for inline icons, added by defining a class within a paragraph tag. Eventually these will be deprecated.
+#wiki_page_show { 
 p.access {
 	&:before {
 	content: url("img/inline_icons/access.png");
@@ -173,8 +173,6 @@ p.zip {
 	content: "\F1A8";
 	@include icon-style;}}
 	
-//Below are similar icons which use attribute selectors and automate the process of adding an icon to a list item
-
 li>a[href $= ".pdf"],
 li>a[href $= ".PDF"], 
 li>a[href $= ".pdf#"],
@@ -297,4 +295,4 @@ li a[title ^= "https://warrington.video.ufl.edu"] {
 	content: "\f1d3"; 
 	@include icon-style;}}	
 	
-//	} END #wiki_page_show
+} //END #wiki_page_show
