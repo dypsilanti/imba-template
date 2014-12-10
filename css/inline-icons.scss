@@ -109,6 +109,11 @@ p.ppt {
 	color:#f36b03;
 	content: "\F1F5";
 	@include icon-style;}}
+p.question {
+	&:before {
+	color:#f50f0f;
+	content: "\F194";
+	@include icon-style;}}
 p.quiz,p.quizzes_tap {
 	&:before {
 	color:#000000;
@@ -141,6 +146,11 @@ p.smiley {
 p.storify {
 	&:before {
 	content: url("img/inline_icons/storify-icon.png");
+	@include icon-style;}}
+p.team {
+	&:before {
+	color:#d90000;
+	content: "\F1D7";
 	@include icon-style;}}
 p.twitter {
 	&:before {
