@@ -1,10 +1,3 @@
-$basepx: 16;
-
-// Convert PX to EM global function
-@function pxtoem($px, $basepx){
-    @return ($px/$basepx)+0em;
-}
-
 @font-face {
 	font-family: "canvas-icons";
 	src: url("../../canvas-lms/public/font/canvas/canvas-icons.woff")
@@ -16,8 +9,7 @@ font-family: "canvas-icons";
 line-height: 1;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-margin-right: 8px;
-font-size: pxtoem(33, $basepx);}
+margin-right: 8px;}
 
 /* #wiki_page_show { */
 
