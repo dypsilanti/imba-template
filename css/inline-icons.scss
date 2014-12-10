@@ -15,7 +15,9 @@ margin-right: 8px;}
 
 //Below are the current styles for inline icons, added by defining a class within a paragraph tag. Eventually these will be deprecated.
 p.access {
-	background: url("img/inline_icons/access.png") no-repeat 0% 0%;}
+	&:before {
+	content: url("img/inline_icons/access.png");
+	@include icon-style;}}
 p.assignment {
 	&:before {
 	color: #37a537;
@@ -62,9 +64,13 @@ p.hours {
 	content: "\F19A";
 	@include icon-style;}}
 p.icon_list {
-	background: url("img/icon_list.png") no-repeat 0% 0%;}
+	&:before {
+	content: url("img/icon_list.png");
+	@include icon-style;}}
 p.lecture {
-	background: url("img/inline_icons/lecture-icon.png") no-repeat 0% 0%;}
+	&:before {
+	content: url("img/inline_icons/lecture-icon.png");
+	@include icon-style;}}
 p.link {
 	&:before {
 	color:black;
@@ -81,7 +87,9 @@ p.meeting {
 	content: "\F1D9";
 	@include icon-style;}}
 p.mindomo {
-	background: url("img/inline_icons/mindomo.png") no-repeat 0% 0%;}
+	&:before {
+	content: url("img/inline_icons/mindomo.png");
+	@include icon-style;}}
 p.pages {
 	&:before {
 	color:black;
@@ -93,7 +101,9 @@ p.pdf {
 	content: "\F200";
 	@include icon-style;}}
 p.phone {
-	background: url("img/inline_icons/phone-icon.png") no-repeat 0% 0%;}
+	&:before {
+	content: url("img/inline_icons/phone-icon.png");
+	@include icon-style;}}
 p.ppt {
 	&:before {
 	color:#f36b03;
@@ -125,9 +135,13 @@ p.skype {
 	content: "\F213";
 	@include icon-style;}}
 p.smiley {
-	background: url("img/inline_icons/smiley-icon.png") no-repeat 0% 0%;}
+	&:before {
+	content: url("img/inline_icons/smiley-icon.png");
+	@include icon-style;}}
 p.storify {
-	background: url("img/inline_icons/storify-icon.png") no-repeat 0% 0%;}
+	&:before {
+	content: url("img/inline_icons/storify-icon.png");
+	@include icon-style;}}
 p.twitter {
 	&:before {
 	color:#4099ff;
