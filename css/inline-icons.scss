@@ -18,7 +18,7 @@ p.access {
 	background: url("img/inline_icons/access.png") no-repeat 0% 0%;}
 p.assignment {
 	color:black;
-	content: "\FBD1";
+	content: "\F1C2";
 	@include icon-style;}
 p.book {
 	&:before {
@@ -100,7 +100,7 @@ p.ppt {
 	@include icon-style;}}
 p.quiz,p.quizzes_tap {
 	&:before {
-	color:#ffffff;
+	color:#000000;
 	content: "\F190";
 	@include icon-style;}}
 p.rss {
