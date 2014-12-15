@@ -186,7 +186,9 @@ h4.course_sub {
 	box-shadow: 0px 1px 1px rgba(48,48,48,1) ;
 	background-color: rgba(233,233,233,1);  
 	transition: width .25s ease-in-out, height .25s ease-in-out, border-radius .25s ease-in-out;
-	position: relative;}
+	position: relative;
+	float: left;
+	margin-left: 4%;}
 
 .button:hover {
 	width: 150px;
