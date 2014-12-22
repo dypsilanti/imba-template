@@ -49,17 +49,17 @@ h1.page-title {
 /* CONTAINER, CONTENT (BACKGROUNDS)*/
 
 .container {
-	position: relative;
+	
 	width: 100%;
-	margin: 0 auto;
-	padding: 0;
+	
+	
 	padding-left: 2%;
 	padding-bottom: 80px;
-	overflow: visible;
+	
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	border-radius: 0px;
+	
 	background: #24618c;}
 .container:after {
 	content: "\0020";
