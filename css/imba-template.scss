@@ -232,47 +232,22 @@
 			END COLUMN */
 			
 						
-			/* H1, H3, H4, H5
+			/* H3, H4, H5
 			===============================*/
-			h1 {
-			font-size: 2.5em;
-			-webkit-font-smoothing:subpixel-antialiased;
-			font-family: "Lato", sans-serif;
-			font-weight: 300;
-			}
-			
 			h3 {
-			padding: 0px;
 			margin-top: 0px;
 			font-size: 1.8em;
 			letter-spacing: .05em;
 			font-family: 'Lato', sans-serif;
-			font-weight: 400;
-			color: #3c3c3c;
-			border-bottom: 2px solid #ff9d42;
-			}
+			border-bottom: 2px solid #ff9d42;}
 			
 			h4 {
 			font-size: 1.6em;
-			font-weight: 500;
 			font-family: "Lato",sans-serif;
-			
-			position: relative;
-			background-color: transparent;
-			border-radius: 0px;
-			width: 100%;
 			padding: 0 0 3px 0;
 			letter-spacing: 0.04em;
-			
-			
 			margin-bottom: 0px;
-			margin-top: 10px;
-			margin-left: 0px;
-			border-bottom: 2px solid #9e9e9e;
-			border-top: 0px;
-			border-right: 0px;
-			border-left: 0px;
-			}
+			border-bottom: 2px solid #9e9e9e;}
 			
 			h5 {
 			font-family: "Lato", sans-serif;
