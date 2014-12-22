@@ -68,7 +68,8 @@ h1.page-title {
 
 /* HOMEPAGE */
 .head {
-	margin-right: 6%;}
+	margin-left: 2.5%;
+	margin-right: 4.5%;}
 
 .prof {
 	width: 200px;
@@ -141,8 +142,7 @@ h4.course_sub {
 	background-color: rgba(233,233,233,1);  
 	transition: width .25s ease-in-out, height .25s ease-in-out, border-radius .25s ease-in-out;
 	position: relative;
-	float: left;
-	}
+	float: left;}
 	
 .button:hover {
 	width: 150px;
@@ -177,18 +177,15 @@ h4.course_sub {
 	padding: 0;
 	background-color: rgba(235, 120, 50, .9);
 	border-radius: 100%;}
-	
-/*===============================
-END HOMEPAGE */
 
 /*IMAGE CAPTIONS*/
-	.caption a {
-		font-size: small;
-		display: block;
-		text-align: right;}
+.caption a {
+	font-size: small;
+	display: block;
+	text-align: right;}
 	
-	.caption img {
-		width: 100%;}	
+.caption img {
+	width: 100%;}	
 
 /* COLUMN
 ===============================*/
