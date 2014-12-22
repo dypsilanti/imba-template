@@ -212,7 +212,7 @@
 				width: 65.33333333333333%;}
 			  
 			.column.half {
-				width: 48%; }
+				width: 48%;}
 			 
 			.column.one-third {
 				width: 30.66666666666667%;}
@@ -221,19 +221,12 @@
 				width: 22%;}	
 				
 			.menu .column.one-fourth {
-				width: auto;
-			}	
+				width: auto;}	
 			
 			.menu .column.one-third {
-				width: auto;
-			}	
+				width: auto;}	
 				
-				/*===============================
-			END COLUMN */
-			
-						
-			/* H3, H4, H5
-			===============================*/
+			/* H3, H4 */
 			h3 {
 			margin-top: 0px;
 			font-size: 1.8em;
@@ -248,34 +241,8 @@
 			letter-spacing: 0.04em;
 			margin-bottom: 0px;
 			border-bottom: 2px solid #9e9e9e;}
-			
-			h5 {
-			font-family: "Lato", sans-serif;
-			font-size: .9em;
-			word-spacing: 0.05em;
-			letter-spacing: .01em;
-			color: black;	
-			}
-			/*===============================
-			END H1, H3, H4, H5 */
-			
-			/* HEADER
-			===============================*/
-			.header {
-			width: auto;
-			position: relative;
-			padding:  1% 1%;
-			padding-left: 5%;
-			padding-bottom: 0;
-			color: white;
-			height: auto;
-			background-color: #24618c;
-			}
-			/* ===============================
-			END HEADER */
-			
-			/* SUBTITLE
-			===============================*/
+
+			/* SUBTITLE */
 			.subtitle {
 				background-color: #24618c;
 				
