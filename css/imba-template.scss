@@ -1,556 +1,556 @@
 .context-course_ {
 
-/*IMBA TEMPLATE*/				&290915,
-/*F14 ACG5065 KNECHEL*/			&270284,
-/*F14 BUL5810 DIMATEO*/  		&270280,
-/*F14 BUL5810 DIMATEO*/  		&304999,
-/*F14 ECP5705 RUSH*/			&270282,
-/*F14 FIN6626 NARANJO IC08*/ 	&270279,
-/*F14 FIN6626 NARANJO IC09*/	&304998,	
-/*F14 GEB5212 BARNES*/ 			&270281,
-/*F14 GEB5212 MCCAWLEY*/ 		&270283,
-/*F14 NET1000 GRAFF*/			&313314,
-/*F14 NET1000 WP */				&280388,
-
-/*S15 ACG5065 KNECHEL*/			&314730,
-/*S15 ECP5705 RUSH*/			&314729,
-/*S15 ENT6006 Morris*/			&314351,
-/*S15 FIN5405 Houston*/			&313868,
-/*S15 FIN6425 133H NIMAL*/		&312992,
-/*S15 FIN6425 1334 NIMAL*/		&312993,
-/*S15 FIN6626 NARANJO IC08*/ 	&314727,
-/*S15 FIN6626 Naranjo*/			&313879,
-/*S15 GEB5114 Gentry*/			&314558,
-/*S15 GEB5212 BARNES*/			&314728,
-/*S15 GEB5212 MCCAWLEY*/ 		&314731,
-/*S15 MAN5501 VAKHARIA*/		&313114, &314066,
-/*S15 MAR6930 Sturdivant*/		&312995, &312994,
-/*S15 QMB5303 PATHAK*/  		&313874 {
-
-#wiki_page_show {
+	/*IMBA TEMPLATE*/				&290915,
+	/*F14 ACG5065 KNECHEL*/			&270284,
+	/*F14 BUL5810 DIMATEO*/  		&270280,
+	/*F14 BUL5810 DIMATEO*/  		&304999,
+	/*F14 ECP5705 RUSH*/			&270282,
+	/*F14 FIN6626 NARANJO IC08*/ 	&270279,
+	/*F14 FIN6626 NARANJO IC09*/	&304998,	
+	/*F14 GEB5212 BARNES*/ 			&270281,
+	/*F14 GEB5212 MCCAWLEY*/ 		&270283,
+	/*F14 NET1000 GRAFF*/			&313314,
+	/*F14 NET1000 WP */				&280388,
 	
-.user_content iframe {
-	width: 100%;} 
+	/*S15 ACG5065 KNECHEL*/			&314730,
+	/*S15 ECP5705 RUSH*/			&314729,
+	/*S15 ENT6006 Morris*/			&314351,
+	/*S15 FIN5405 Houston*/			&313868,
+	/*S15 FIN6425 133H NIMAL*/		&312992,
+	/*S15 FIN6425 1334 NIMAL*/		&312993,
+	/*S15 FIN6626 NARANJO IC08*/ 	&314727,
+	/*S15 FIN6626 Naranjo*/			&313879,
+	/*S15 GEB5114 Gentry*/			&314558,
+	/*S15 GEB5212 BARNES*/			&314728,
+	/*S15 GEB5212 MCCAWLEY*/ 		&314731,
+	/*S15 MAN5501 VAKHARIA*/		&313114, &314066,
+	/*S15 MAR6930 Sturdivant*/		&312995, &312994,
+	/*S15 QMB5303 PATHAK*/  		&313874 {
+
+		#wiki_page_show {
 	
-.show-content.user_content.enhanced {
-	padding: 0px 0px;}
-	
-h1.page-title {
-	background-color: #24618c;
-	font-family: 'Lato', sans-serif;
-	font-size: 4em; //changed to 3.5
-	color: white;
-	padding: 10px;
-	padding-left: 4.5%;
-	margin: 0px;}
-
-/* CONTAINER, CONTENT */
-.container {
-	width: 100%;
-	padding-left: 2%;
-	padding-top: 20px;
-	padding-bottom: 80px;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	background: #24618c;}
-
-.content {
-	width:95%;
-	margin: 0 auto;
-	padding: 10px 2%;
-	background: whitesmoke; 
-	border-radius: 5px;
-	box-shadow: 0px 2px 3px 0px #363b44;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;}
-
-/* HOMEPAGE */
-.head {
-	margin-left: 2.5%;
-	margin-right: 4.5%;}
-
-.prof {
-	width: 200px;
-	height: 200px;
-	border-radius: 100%;
-	border: 5px solid whitesmoke;
-	background-repeat: no-repeat;
-	box-shadow: 0px 1px 1px rgba(48,48,48,1);
-	background-size: cover;
-	position: absolute;}	
-	
-.title {
-	margin-left: 240px;
-	margin-top: 10px;
-	color: white;
-	font-family: 'Lato', sans-serif;
-	min-height: 220px;
-	-webkit-font-smoothing: antialiased !important;}
-	
-h2.course_name {
-	font-size: 400%;
-	font-weight: 600;
-	line-height: 1.1em;
-	margin: 0;
-	border-bottom: 2px solid orange;
-	text-shadow: 0px 1px 1px rgba(48,48,48,1);}
-	
-h4.course_sub {
-	font-size: 250%;
-	line-height: 1.1em;
-	margin: 0;
-	border-bottom: none;
-	text-shadow: 0px 1px 1px rgba(48,48,48,1);}
-	
-.title ul.nav {
-	margin-left: 0;}
-	
-.title ul.nav li {
-	margin: 0;
-	background: transparent;
-	border: none;
-	border-radius: 0;}
-	
-.title ul.nav la:first-child {
-	padding-left: 0;}
-
-.title ul.nav li+li {
-	border-left: 1px solid orange;}
-
-.title ul.nav a {
-	color: white;
-	transition: color 0.5s ease;
-	letter-spacing: 1px;
-	border-bottom: none;}
-
-.title ul.nav a:hover {
-	color: #ff9d42;
-	border-bottom: none;}
-
-.button {
-	width: 150px;
-	height: 150px;
-	margin: 0 0 60px 4.5%;
-	border-radius: 100%;
-	box-shadow: 0px 1px 1px rgba(48,48,48,1) ;
-	background-color: rgba(233,233,233,1);  
-	transition: width .25s ease-in-out, height .25s ease-in-out, border-radius .25s ease-in-out;
-	position: relative;
-	float: left;}
-	
-.button:hover {
-	width: 150px;
-	height: 150px;}
-	
-.button a {
-	font-family: "Lato",sans-serif;
-	font-size: 18px;
-	text-decoration: none;
-	display: block;
-	padding: 150px 0px 0px 0px;
-	color: white;
-	text-align: center;
-	transition: padding .5s ease, background-color .75s ease, border-radius .75s ease;
-	font-weight: 300;
-	letter-spacing: .5px;
-	position: relative;
-	top: 10px;}
-
-.button a:hover {
-	padding: 50px 0px 110px 0px;}
-	
-.button a:visited {
-	color: white;}
-	
-.grow {
-	width: 150px;
-	height: 150px;
-	transition: background-color .75s ease, border-radius .75s ease;}
-	
-.grow:hover {	
-	padding: 0;
-	background-color: rgba(235, 120, 50, .9);
-	border-radius: 100%;}
-
-/*IMAGE CAPTIONS*/
-.caption a {
-	font-size: small;
-	display: block;
-	text-align: right;}
-	
-.caption img {
-	width: 100%;}	
-
-/* COLUMN
-===============================*/
-.column {
-	float: left;
-	margin-left: 2%;
-	margin-right: 2%;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	max-width: none;
-	
-	&:first-child {
-	margin-left: 0;}
-	
-	&:last-child {
-	margin-right: 0;}
-}
-
-.column.full {
-	width: 100%;}
-
-.column.three-fourths {
-	width: 63.75%;}	
-  
-.column.two-thirds {
-	width: 65.33333333333333%;}
-  
-.column.half {
-	width: 48%; }
- 
-.column.one-third {
-	width: 30.66666666666667%;}
- 
-.column.one-fourth {
-	width: 22%;}	
-	
-.menu .column.one-fourth {
-	width: auto;
-}	
-
-.menu .column.one-third {
-	width: auto;
-}	
-	
-	/*===============================
-END COLUMN */
-
-/* ROW
-===============================*/
-.clearfix {*zoom: 1;}
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;}
- 
-.clearfix:after {
-  clear: both;}
- 
-.row {
-  overflow: visible;
-  margin-bottom: 10px;
-  margin: 0 auto;
-  clear:both;}
-/*===============================
-END ROW */
-
-/* H1, H3, H4, H5
-===============================*/
-h1 {
-font-size: 2.5em;
--webkit-font-smoothing:subpixel-antialiased;
-font-family: "Lato", sans-serif;
-font-weight: 300;
-}
-
-h3 {
-padding: 0px;
-margin-top: 0px;
-font-size: 1.8em;
-letter-spacing: .05em;
-font-family: 'Lato', sans-serif;
-font-weight: 400;
-color: #3c3c3c;
-border-bottom: 2px solid #ff9d42;
-}
-
-h4 {
-font-size: 1.6em;
-font-weight: 500;
-font-family: "Lato",sans-serif;
-
-position: relative;
-background-color: transparent;
-border-radius: 0px;
-width: 100%;
-padding: 0 0 3px 0;
-letter-spacing: 0.04em;
-
-
-margin-bottom: 0px;
-margin-top: 10px;
-margin-left: 0px;
-border-bottom: 2px solid #9e9e9e;
-border-top: 0px;
-border-right: 0px;
-border-left: 0px;
-}
-
-h5 {
-font-family: "Lato", sans-serif;
-font-size: .9em;
-word-spacing: 0.05em;
-letter-spacing: .01em;
-color: black;	
-}
-/*===============================
-END H1, H3, H4, H5 */
-
-/* HEADER
-===============================*/
-.header {
-width: auto;
-position: relative;
-padding:  1% 1%;
-padding-left: 5%;
-padding-bottom: 0;
-color: white;
-height: auto;
-background-color: #24618c;
-}
-/* ===============================
-END HEADER */
-
-/* SUBTITLE
-===============================*/
-.subtitle {
-	background-color: #24618c;
-	
-	p {
-		color: white;
-		letter-spacing: .08em;
-		font-weight: 300;
-		font-size: 1.5em;
-		padding-left: 4.5%;
-		margin: 0;}
-		}
-		
-/* ===============================
-END SUBTITLE */
-
-/* PARAGRAPH
-===============================*/
-p {
-	font-family: 'Helvetica', sans-serif;
-	font-size: 1.35em;
-	line-height: 1.5em;
-	word-spacing: 0.05em;
-	letter-spacing: 0.01em;
-	margin: 10px 0px 5px 0px;
-	font-weight: 400;
-	padding-right: 20px;
-	
-	
-	strong {font-weight: bold;}
-
-	em {font-style: italic;}
-	}
-/* ===============================
-END PARAGRAPH */
-
-	/* LINKS
-	===============================*/
-.content {
-	a {
-	color: #24618c;
-	transition: color .3s ease;
-	}
-
-	a:hover {
-	color:#ff9d42;
-	}
-
-	a:visited {
-		color: gray;
-	}
-
-	/* ===============================
-		END LINKS */
-
-	/* LISTS 
-	===============================*/
-	ul {
-		margin-left: 5%;
-		padding-top: 5px;
-		font-style: inherit;
-		margin-bottom: 5px;}
-
-	ul li {
-		list-style: disc;
-		font-family: 'Helvetica', serif;
-		font-size: 18px;
-		line-height: 1.65em;
-		word-spacing: 0.1em;}
-
-	ol {
-		margin-left: 5%;
-		padding-top: 5px;
-		font-style: inherit;
-		margin-bottom: 5px;	}
-	
-	ol li {
-		font-family: 'Helvetica', serif;
-		line-height: 1.65em;
-		word-spacing: 0.1em;
-		font-size: 18px;}
-	
-	ol li p {
-		font-size: 18px;}
-}		
-/* ===============================
-END LISTS*/
-
-/* NAVIGATION
-===============================*/
-	ul.nav {
-		display: block;
-		margin-top: 10px;
-		margin-left: 2.5%;
-	
-		li {
-		list-style: none;
-		float: left;
-		margin-right: 10px;
-		margin-bottom: 10px;
-		background: #FCFCFC;
-		padding: 5px 10px;
-		border: 1px solid #D3D3D3;
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		border-radius: 3px;
-
-		a {
-			color: black;
-			font-size: 16px;
+			.user_content iframe {
+				width: 100%;} 
+				
+			.show-content.user_content.enhanced {
+				padding: 0px 0px;}
+				
+			h1.page-title {
+				background-color: #24618c;
+				font-family: 'Lato', sans-serif;
+				font-size: 4em; //changed to 3.5
+				color: white;
+				padding: 10px;
+				padding-left: 4.5%;
+				margin: 0px;}
+			
+			/* CONTAINER, CONTENT */
+			.container {
+				width: 100%;
+				padding-left: 2%;
+				padding-top: 20px;
+				padding-bottom: 80px;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				background: #24618c;}
+			
+			.content {
+				width:95%;
+				margin: 0 auto;
+				padding: 10px 2%;
+				background: whitesmoke; 
+				border-radius: 5px;
+				box-shadow: 0px 2px 3px 0px #363b44;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;}
+			
+			/* HOMEPAGE */
+			.head {
+				margin-left: 2.5%;
+				margin-right: 4.5%;}
+			
+			.prof {
+				width: 200px;
+				height: 200px;
+				border-radius: 100%;
+				border: 5px solid whitesmoke;
+				background-repeat: no-repeat;
+				box-shadow: 0px 1px 1px rgba(48,48,48,1);
+				background-size: cover;
+				position: absolute;}	
+				
+			.title {
+				margin-left: 240px;
+				margin-top: 10px;
+				color: white;
+				font-family: 'Lato', sans-serif;
+				min-height: 220px;
+				-webkit-font-smoothing: antialiased !important;}
+				
+			h2.course_name {
+				font-size: 400%;
+				font-weight: 600;
+				line-height: 1.1em;
+				margin: 0;
+				border-bottom: 2px solid orange;
+				text-shadow: 0px 1px 1px rgba(48,48,48,1);}
+				
+			h4.course_sub {
+				font-size: 250%;
+				line-height: 1.1em;
+				margin: 0;
+				border-bottom: none;
+				text-shadow: 0px 1px 1px rgba(48,48,48,1);}
+				
+			.title ul.nav {
+				margin-left: 0;}
+				
+			.title ul.nav li {
+				margin: 0;
+				background: transparent;
+				border: none;
+				border-radius: 0;}
+				
+			.title ul.nav la:first-child {
+				padding-left: 0;}
+			
+			.title ul.nav li+li {
+				border-left: 1px solid orange;}
+			
+			.title ul.nav a {
+				color: white;
+				transition: color 0.5s ease;
+				letter-spacing: 1px;
+				border-bottom: none;}
+			
+			.title ul.nav a:hover {
+				color: #ff9d42;
+				border-bottom: none;}
+			
+			.button {
+				width: 150px;
+				height: 150px;
+				margin: 0 0 60px 4.5%;
+				border-radius: 100%;
+				box-shadow: 0px 1px 1px rgba(48,48,48,1) ;
+				background-color: rgba(233,233,233,1);  
+				transition: width .25s ease-in-out, height .25s ease-in-out, border-radius .25s ease-in-out;
+				position: relative;
+				float: left;}
+				
+			.button:hover {
+				width: 150px;
+				height: 150px;}
+				
+			.button a {
+				font-family: "Lato",sans-serif;
+				font-size: 18px;
+				text-decoration: none;
+				display: block;
+				padding: 150px 0px 0px 0px;
+				color: white;
+				text-align: center;
+				transition: padding .5s ease, background-color .75s ease, border-radius .75s ease;
+				font-weight: 300;
+				letter-spacing: .5px;
+				position: relative;
+				top: 10px;}
+			
+			.button a:hover {
+				padding: 50px 0px 110px 0px;}
+				
+			.button a:visited {
+				color: white;}
+				
+			.grow {
+				width: 150px;
+				height: 150px;
+				transition: background-color .75s ease, border-radius .75s ease;}
+				
+			.grow:hover {	
+				padding: 0;
+				background-color: rgba(235, 120, 50, .9);
+				border-radius: 100%;}
+			
+			/*IMAGE CAPTIONS*/
+			.caption a {
+				font-size: small;
+				display: block;
+				text-align: right;}
+				
+			.caption img {
+				width: 100%;}	
+			
+			/* COLUMN
+			===============================*/
+			.column {
+				float: left;
+				margin-left: 2%;
+				margin-right: 2%;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				max-width: none;
+				
+					&:first-child {
+					margin-left: 0;}
+				
+					&:last-child {
+					margin-right: 0;}
+			}
+			
+			.column.full {
+				width: 100%;}
+			
+			.column.three-fourths {
+				width: 63.75%;}	
+			  
+			.column.two-thirds {
+				width: 65.33333333333333%;}
+			  
+			.column.half {
+				width: 48%; }
+			 
+			.column.one-third {
+				width: 30.66666666666667%;}
+			 
+			.column.one-fourth {
+				width: 22%;}	
+				
+			.menu .column.one-fourth {
+				width: auto;
+			}	
+			
+			.menu .column.one-third {
+				width: auto;
+			}	
+				
+				/*===============================
+			END COLUMN */
+			
+			/* ROW
+			===============================*/
+			.clearfix {*zoom: 1;}
+			
+			.clearfix:before,
+			.clearfix:after {
+			  content: " ";
+			  display: table;}
+			 
+			.clearfix:after {
+			  clear: both;}
+			 
+			.row {
+			  overflow: visible;
+			  margin-bottom: 10px;
+			  margin: 0 auto;
+			  clear:both;}
+			/*===============================
+			END ROW */
+			
+			/* H1, H3, H4, H5
+			===============================*/
+			h1 {
+			font-size: 2.5em;
+			-webkit-font-smoothing:subpixel-antialiased;
+			font-family: "Lato", sans-serif;
+			font-weight: 300;
+			}
+			
+			h3 {
+			padding: 0px;
+			margin-top: 0px;
+			font-size: 1.8em;
+			letter-spacing: .05em;
 			font-family: 'Lato', sans-serif;
-			width: auto;
-			padding-bottom: 0px;
-			text-decoration: none;
-			border-bottom: 2px solid #FCFCFC;
+			font-weight: 400;
+			color: #3c3c3c;
+			border-bottom: 2px solid #ff9d42;
+			}
+			
+			h4 {
+			font-size: 1.6em;
+			font-weight: 500;
+			font-family: "Lato",sans-serif;
+			
+			position: relative;
 			background-color: transparent;
-			transition: border-bottom 0.5s ease;}
-
-		a:hover {border-bottom: 2px solid #ff9d42;}
-		} /*end li*/
-		} /*end ul*/	
-/* ===============================
-END NAVIGATION */
-
-
-
-/* BACK TO TOP 
-===============================*/
-.back {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	
-	a {
-		font-family: 'Lato', sans-serif;
-		font-size: small;
-		color:#303030;
-		border-radius: 0px;
-		background-color: transparent;
-		padding: 5px;
-		text-decoration: none;
-		border-top: 2px solid transparent; 
-		border-right: 2px solid #ff9d42;
-		border-bottom: 2px solid #ff9d42;
-		border-left: 2px solid transparent;
-		transition: border-top .3s ease, border-right .3s ease, 
-		border-bottom .3s ease, border-left .3s ease;}
-	
-	a:hover {
-		border-top: 2px solid #ff9d42;
-		border-right: 2px solid transparent;
-		border-bottom: 2px solid transparent;
-		border-left: 2px solid #ff9d42;}
-		} /*end .back*/
-/* ===============================
-END BACK TO TOP */
-
-
-/* BREAKPOINTS
-===============================*/
-@media screen and (max-width: 1300px) {
-	.content {
-	.column.full,
-	.column.two-thirds,
-	.column.half,
-	.column.one-third,
-	.column.one-fourth {
-		margin: 0px;
-		margin-bottom: 10px;
-		width: 100%;}
-		} /*END .content*/
- 
-	
-	ul, ol {margin-left: 5%;}  
-	h1 {font-size: 300%;}
-	h3 {font-size: 150%;}
-	}
-	
-@media screen and (max-width: 1300px) {
-	h2.course_name {
-		font-size: 250%;}
-	
-	h4.course_sub {
-		font-size: 200%;
-		font-weight: 400;}}
-
-	 
-/* ===============================
-END BREAKPOINTS */
-
-}//END #wiki_page_show
-
-/*SYLLABUS HEADER
-Currently not possible to implement due to specificity restrictions. ".syllabus" is in the same body tag as ".context-course_" and complicates specifying a particular style for each template. 
-
-.syllabus #content.container-fluid h1 {
-	background-color: #24618c;
-	font-family: 'Lato', sans-serif;
-	font-size: 3.5em;
-	color: white;
-	padding: 10px;
-	padding-left: 2.5%;
-	margin: 0px;
-	line-height: 1em;}
-
-.syllabus #content.container-fluid a.jump_to_today_link {
-	color: white;
-	position: relative;
-	top: 25px;
-	right: 10px;}	*/
-
-	// HIDES DISCUSSION AVATAR AND AUTHOR
-#discussion_topic { 
-	a.author, a.avatar, .discussion-pubdate {
-		display: none;}
-
-	header.discussion-section.clearfix {
-		width: auto;
-		height: auto;
-		padding: 10px;
-		padding-left: 20px;
-		background: #24618c;
-		font-family: "Lato", sans-serif;
-		font-size: 1.5em;
-		font-weight: 300;
-		color: white;
-		line-height: 1.1em;
-		display: block;
-		letter-spacing: 1px;}
-}// END #discussion_topic
-	
-.topic h1.discussion-title {
-	font-weight: 300;}
-}} //END CONTEXT-COURSE
-		
-	
-	
+			border-radius: 0px;
+			width: 100%;
+			padding: 0 0 3px 0;
+			letter-spacing: 0.04em;
+			
+			
+			margin-bottom: 0px;
+			margin-top: 10px;
+			margin-left: 0px;
+			border-bottom: 2px solid #9e9e9e;
+			border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			}
+			
+			h5 {
+			font-family: "Lato", sans-serif;
+			font-size: .9em;
+			word-spacing: 0.05em;
+			letter-spacing: .01em;
+			color: black;	
+			}
+			/*===============================
+			END H1, H3, H4, H5 */
+			
+			/* HEADER
+			===============================*/
+			.header {
+			width: auto;
+			position: relative;
+			padding:  1% 1%;
+			padding-left: 5%;
+			padding-bottom: 0;
+			color: white;
+			height: auto;
+			background-color: #24618c;
+			}
+			/* ===============================
+			END HEADER */
+			
+			/* SUBTITLE
+			===============================*/
+			.subtitle {
+				background-color: #24618c;
+				
+				p {
+					color: white;
+					letter-spacing: .08em;
+					font-weight: 300;
+					font-size: 1.5em;
+					padding-left: 4.5%;
+					margin: 0;}
+					}
+					
+			/* ===============================
+			END SUBTITLE */
+			
+			/* PARAGRAPH
+			===============================*/
+			p {
+				font-family: 'Helvetica', sans-serif;
+				font-size: 1.35em;
+				line-height: 1.5em;
+				word-spacing: 0.05em;
+				letter-spacing: 0.01em;
+				margin: 10px 0px 5px 0px;
+				font-weight: 400;
+				padding-right: 20px;
+				
+				
+				strong {font-weight: bold;}
+			
+				em {font-style: italic;}
+				}
+			/* ===============================
+			END PARAGRAPH */
+			
+				/* LINKS
+				===============================*/
+			.content {
+				a {
+				color: #24618c;
+				transition: color .3s ease;
+				}
+			
+				a:hover {
+				color:#ff9d42;
+				}
+			
+				a:visited {
+					color: gray;
+				}
+			
+				/* ===============================
+					END LINKS */
+			
+				/* LISTS 
+				===============================*/
+				ul {
+					margin-left: 5%;
+					padding-top: 5px;
+					font-style: inherit;
+					margin-bottom: 5px;}
+			
+				ul li {
+					list-style: disc;
+					font-family: 'Helvetica', serif;
+					font-size: 18px;
+					line-height: 1.65em;
+					word-spacing: 0.1em;}
+			
+				ol {
+					margin-left: 5%;
+					padding-top: 5px;
+					font-style: inherit;
+					margin-bottom: 5px;	}
+				
+				ol li {
+					font-family: 'Helvetica', serif;
+					line-height: 1.65em;
+					word-spacing: 0.1em;
+					font-size: 18px;}
+				
+				ol li p {
+					font-size: 18px;}
+			}		
+			/* ===============================
+			END LISTS*/
+			
+			/* NAVIGATION
+			===============================*/
+				ul.nav {
+					display: block;
+					margin-top: 10px;
+					margin-left: 2.5%;
+				
+					li {
+					list-style: none;
+					float: left;
+					margin-right: 10px;
+					margin-bottom: 10px;
+					background: #FCFCFC;
+					padding: 5px 10px;
+					border: 1px solid #D3D3D3;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					border-radius: 3px;
+			
+					a {
+						color: black;
+						font-size: 16px;
+						font-family: 'Lato', sans-serif;
+						width: auto;
+						padding-bottom: 0px;
+						text-decoration: none;
+						border-bottom: 2px solid #FCFCFC;
+						background-color: transparent;
+						transition: border-bottom 0.5s ease;}
+			
+					a:hover {border-bottom: 2px solid #ff9d42;}
+					} /*end li*/
+					} /*end ul*/	
+			/* ===============================
+			END NAVIGATION */
+			
+			
+			
+			/* BACK TO TOP 
+			===============================*/
+			.back {
+				margin-top: 10px;
+				margin-bottom: 10px;
+				
+				a {
+					font-family: 'Lato', sans-serif;
+					font-size: small;
+					color:#303030;
+					border-radius: 0px;
+					background-color: transparent;
+					padding: 5px;
+					text-decoration: none;
+					border-top: 2px solid transparent; 
+					border-right: 2px solid #ff9d42;
+					border-bottom: 2px solid #ff9d42;
+					border-left: 2px solid transparent;
+					transition: border-top .3s ease, border-right .3s ease, 
+					border-bottom .3s ease, border-left .3s ease;}
+				
+				a:hover {
+					border-top: 2px solid #ff9d42;
+					border-right: 2px solid transparent;
+					border-bottom: 2px solid transparent;
+					border-left: 2px solid #ff9d42;}
+					} /*end .back*/
+			/* ===============================
+			END BACK TO TOP */
+			
+			
+			/* BREAKPOINTS
+			===============================*/
+			@media screen and (max-width: 1300px) {
+				.content {
+				.column.full,
+				.column.two-thirds,
+				.column.half,
+				.column.one-third,
+				.column.one-fourth {
+					margin: 0px;
+					margin-bottom: 10px;
+					width: 100%;}
+					} /*END .content*/
+			 
+				
+				ul, ol {margin-left: 5%;}  
+				h1 {font-size: 300%;}
+				h3 {font-size: 150%;}
+				}
+				
+			@media screen and (max-width: 1300px) {
+				h2.course_name {
+					font-size: 250%;}
+				
+				h4.course_sub {
+					font-size: 200%;
+					font-weight: 400;}}
+			
+				 
+			/* ===============================
+			END BREAKPOINTS */
+			
+			}//END #wiki_page_show
+			
+			/*SYLLABUS HEADER
+			Currently not possible to implement due to specificity restrictions. ".syllabus" is in the same body tag as ".context-course_" and complicates specifying a particular style for each template. 
+			
+			.syllabus #content.container-fluid h1 {
+				background-color: #24618c;
+				font-family: 'Lato', sans-serif;
+				font-size: 3.5em;
+				color: white;
+				padding: 10px;
+				padding-left: 2.5%;
+				margin: 0px;
+				line-height: 1em;}
+			
+			.syllabus #content.container-fluid a.jump_to_today_link {
+				color: white;
+				position: relative;
+				top: 25px;
+				right: 10px;}	*/
+			
+				// HIDES DISCUSSION AVATAR AND AUTHOR
+			#discussion_topic { 
+				a.author, a.avatar, .discussion-pubdate {
+					display: none;}
+			
+				header.discussion-section.clearfix {
+					width: auto;
+					height: auto;
+					padding: 10px;
+					padding-left: 20px;
+					background: #24618c;
+					font-family: "Lato", sans-serif;
+					font-size: 1.5em;
+					font-weight: 300;
+					color: white;
+					line-height: 1.1em;
+					display: block;
+					letter-spacing: 1px;}
+			}// END #discussion_topic
+				
+			.topic h1.discussion-title {
+				font-weight: 300;}
+			}} //END CONTEXT-COURSE
+					
+				
+				
