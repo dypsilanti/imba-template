@@ -263,30 +263,19 @@
 				word-spacing: 0.05em;
 				margin: 10px 0px 5px 0px;
 				
-				strong {font-weight: bold;}
-				em {font-style: italic;}
+					strong {font-weight: bold;}
+					em {font-style: italic;}
 			}
 			
-			/* LINKS */
+			/* LINKS, LISTS */
 			.content {
 				a {
-				color: #24618c;
-				transition: color .3s ease;
-				}
+					color: #24618c;
+					transition: color .3s ease;}
 			
-				a:hover {
-				color:#ff9d42;
-				}
+				a:hover {color:#ff9d42;}
+				a:visited {color: gray;}
 			
-				a:visited {
-					color: gray;
-				}
-			
-				/* ===============================
-					END LINKS */
-			
-				/* LISTS 
-				===============================*/
 				ul {
 					margin-left: 5%;
 					padding-top: 5px;
@@ -315,17 +304,14 @@
 				ol li p {
 					font-size: 18px;}
 			}		
-			/* ===============================
-			END LISTS*/
+						
+			/* NAVIGATION */
+			ul.nav {
+				display: block;
+				margin-top: 10px;
+				margin-left: 2.5%;
 			
-			/* NAVIGATION
-			===============================*/
-				ul.nav {
-					display: block;
-					margin-top: 10px;
-					margin-left: 2.5%;
-				
-					li {
+				li {
 					list-style: none;
 					float: left;
 					margin-right: 10px;
@@ -336,7 +322,7 @@
 					-webkit-border-radius: 3px;
 					-moz-border-radius: 3px;
 					border-radius: 3px;
-			
+		
 					a {
 						color: black;
 						font-size: 16px;
@@ -347,30 +333,22 @@
 						border-bottom: 2px solid #FCFCFC;
 						background-color: transparent;
 						transition: border-bottom 0.5s ease;}
-			
+		
 					a:hover {border-bottom: 2px solid #ff9d42;}
-					} /*end li*/
-					} /*end ul*/	
-			/* ===============================
-			END NAVIGATION */
-			
-			
-			
-			/* BACK TO TOP 
-			===============================*/
+				} /*end li*/
+			} /*end ul*/	
+		
+			/* BACK TO TOP */
 			.back {
 				margin-top: 10px;
 				margin-bottom: 10px;
 				
 				a {
 					font-family: 'Lato', sans-serif;
-					font-size: small;
 					color:#303030;
-					border-radius: 0px;
-					background-color: transparent;
 					padding: 5px;
 					text-decoration: none;
-					border-top: 2px solid transparent; 
+					border-top: 2px solid transparent;
 					border-right: 2px solid #ff9d42;
 					border-bottom: 2px solid #ff9d42;
 					border-left: 2px solid transparent;
@@ -382,30 +360,27 @@
 					border-right: 2px solid transparent;
 					border-bottom: 2px solid transparent;
 					border-left: 2px solid #ff9d42;}
-					} /*end .back*/
-			/* ===============================
-			END BACK TO TOP */
+				
+				a:visited {color:#303030;}
+			} /*end .back*/
 			
-			
-			/* BREAKPOINTS
-			===============================*/
+			/* BREAKPOINTS */
 			@media screen and (max-width: 1300px) {
 				.content {
-				.column.full,
-				.column.two-thirds,
-				.column.half,
-				.column.one-third,
-				.column.one-fourth {
-					margin: 0px;
-					margin-bottom: 10px;
-					width: 100%;}
-					} /*END .content*/
+					.column.full,
+					.column.two-thirds,
+					.column.half,
+					.column.one-third,
+					.column.one-fourth {
+						margin: 0px;
+						margin-bottom: 10px;
+						width: 100%;}
+				} /*END .content*/
 			 
-				
 				ul, ol {margin-left: 5%;}  
 				h1 {font-size: 300%;}
 				h3 {font-size: 150%;}
-				}
+			}
 				
 			@media screen and (max-width: 1300px) {
 				h2.course_name {
@@ -413,34 +388,10 @@
 				
 				h4.course_sub {
 					font-size: 200%;
-					font-weight: 400;}}
+					font-weight: 400;}
+			}
 			
-				 
-			/* ===============================
-			END BREAKPOINTS */
-			
-			}//END #wiki_page_show
-			
-			/*SYLLABUS HEADER
-			Currently not possible to implement due to specificity restrictions. ".syllabus" is in the same body tag as ".context-course_" and complicates specifying a particular style for each template. 
-			
-			.syllabus #content.container-fluid h1 {
-				background-color: #24618c;
-				font-family: 'Lato', sans-serif;
-				font-size: 3.5em;
-				color: white;
-				padding: 10px;
-				padding-left: 2.5%;
-				margin: 0px;
-				line-height: 1em;}
-			
-			.syllabus #content.container-fluid a.jump_to_today_link {
-				color: white;
-				position: relative;
-				top: 25px;
-				right: 10px;}	*/
-			
-				// HIDES DISCUSSION AVATAR AND AUTHOR
+			// HIDES DISCUSSION AVATAR AND AUTHOR
 			#discussion_topic { 
 				a.author, a.avatar, .discussion-pubdate {
 					display: none;}
@@ -458,11 +409,9 @@
 					line-height: 1.1em;
 					display: block;
 					letter-spacing: 1px;}
-			}// END #discussion_topic
+			} // END #discussion_topic
 				
-			.topic h1.discussion-title {
-				font-weight: 300;}
-			}} //END CONTEXT-COURSE
-					
-				
-				
+			.topic h1.discussion-title {font-weight: 300;}
+		}
+	} 
+}
