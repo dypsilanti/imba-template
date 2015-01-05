@@ -1,5 +1,4 @@
 .context-course_ {
-
 	/*IMBA TEMPLATE*/				&290915,
 	/*F14 ACG5065 KNECHEL*/			&270284,
 	/*F14 BUL5810 DIMATEO*/  		&270280,
@@ -135,7 +134,8 @@
 				margin: 0 0 60px 4.5%;
 				border-radius: 100%;
 				box-shadow: 0px 1px 1px rgba(48,48,48,1) ;
-				background-color: rgba(233,233,233,1);  
+				background-color: rgba(233,233,233,1);
+				background-size: cover;
 				transition: width .25s ease-in-out, height .25s ease-in-out, border-radius .25s ease-in-out;
 				position: relative;
 				float: left;}
