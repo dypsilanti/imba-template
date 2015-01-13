@@ -392,25 +392,11 @@
 					font-weight: 400;}
 			}
 			
-			// HIDES DISCUSSION AVATAR AND AUTHOR
-			#discussion_topic { 
-				a.author, a.avatar, .discussion-pubdate {
-					display: none;}
-			
-				header.discussion-section.clearfix {
-					width: auto;
-					height: auto;
-					padding: 10px;
-					padding-left: 20px;
-					background: #24618c;
-					font-family: "Lato", sans-serif;
-					font-size: 1.5em;
-					font-weight: 300;
-					color: white;
-					line-height: 1.1em;
-					display: block;
-					letter-spacing: 1px;}
-			} // END #discussion_topic
+		// DISCUSSION STYLES
+		// =================
+		#discussion_topic {
+			header.discussion-section {background: #24618c;}
+		} // #discussion_topic
 				
 			.topic h1.discussion-title {font-weight: 300;}
 		}
