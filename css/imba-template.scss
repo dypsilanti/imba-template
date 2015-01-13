@@ -184,49 +184,6 @@
 			.caption img {
 				width: 100%;}
 				
-			/* ROW */
-			.row {
-				margin: 0 auto;}
-			
-			/* COLUMN */
-			.column {
-				float: left;
-				margin-left: 2%;
-				margin-right: 2%;
-				-moz-box-sizing: border-box;
-				-webkit-box-sizing: border-box;
-								
-					&:first-child {
-					margin-left: 0;}
-				
-					&:last-child {
-					margin-right: 0;}
-			}
-			
-			.column.full {
-				width: 100%;}
-			
-			.column.three-fourths {
-				width: 63.75%;}	
-			  
-			.column.two-thirds {
-				width: 65.33333333333333%;}
-			  
-			.column.half {
-				width: 48%;}
-			 
-			.column.one-third {
-				width: 30.66666666666667%;}
-			 
-			.column.one-fourth {
-				width: 22%;}	
-				
-			.menu .column.one-fourth {
-				width: auto;}	
-			
-			.menu .column.one-third {
-				width: auto;}	
-				
 			/* H3, H4 */
 			h3 {
 			margin-top: 0px;
