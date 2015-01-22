@@ -319,6 +319,16 @@
 		// =================
 		#discussion_topic {
 			header.discussion-section {background: #24618c;}
+			
+			h1.discussion-title,
+			header.discussion-section .discussion-pubdate {
+				color: white;
+			}
+			
+			a.avatar,
+			a.author {
+				display: none;
+			}
 		} // #discussion_topic
 	} 
 }
