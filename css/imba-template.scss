@@ -305,7 +305,7 @@
 					font-size: 200%;
 					font-weight: 400;}
 			}
-		}
+		} //#wiki-page-show
 			
 		// DISCUSSION STYLES
 		// =================
@@ -322,5 +322,18 @@
 				display: none;
 			}
 		} // #discussion_topic
-	} 
-}
+		
+		//SYLLABUS STYLES
+		//===============
+		&.syllabus h1 {
+			font-weight: 300;
+			background: #24618c;
+			color: white;
+			border-radius: 3px;
+			margin-top: 20px;
+			padding: 5px;
+		}
+	} // &course-id
+} // .context-course_
+
+		
