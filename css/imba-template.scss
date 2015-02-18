@@ -31,7 +31,16 @@
 		#wiki_page_show {
 			
 			// removes padding for wiki page content area 	
-// 			.show-content {padding: 0;}
+			.show-content {padding: 0;}
+			
+			// targets canvas-generated course title, appears on front page
+			.header-bar {
+				background: #24618c;
+				
+				h2 {
+					border-bottom: 0;
+				}
+			}
 			
 			// subtitle for the course, goes before <div class="container>	
 			.subtitle {background-color: #24618c;}
@@ -44,7 +53,6 @@
 			//=================
 			// instructor's photo
 			.prof {
-				background: url('course-style/_default/placeholder.png') no-repeat 0% 100%;
 				border-radius: 100%;
 				border: 5px solid whitesmoke;
 				background-repeat: no-repeat;
@@ -70,14 +78,24 @@
 				
 				// front page navigation
 				ul.nav {
-					li:first-child {padding-left: 0;}
-			
-					li+li {border-left: 1px solid orange;}
+					margin-top: 10px;
+					
+					li {
+						background: transparent;
+						border: 0;
+						border-radius: 0;
+						padding: 5px 0 5px 10px;
+						
+						&:first-child {padding-left: 0;}
+						&+li {border-left: 1px solid orange;}
+					}
+					
 			
 					a {
 						color: white;
 						transition: color 0.5s ease;
 						border-bottom: none;
+						text-decoration: none;
 					
 						&:hover {
 							color: #ff9d42;
@@ -101,9 +119,12 @@
 				a {
 					color: white;
 					transition: padding .5s ease, background-color .75s ease, border-radius .75s ease;
-					font-weight: 300;
-					
-					&:hover {padding: 50px 0px 110px 0px;}
+					text-decoration: none;
+									
+					&:hover {
+						padding: 50px 0px 110px 0px;
+						color: white;
+					}
 					&:visited {color: white;}
 				} // end a
 			} // end .button
@@ -124,13 +145,19 @@
 			// HEADINGS (H1 H2 H3 H4)
 			//=================
 			// targets canvas-generated page title
-			h1.page-title {background-color: #24618c;}
+			h1.page-title {
+				background-color: #24618c;
+				
+				width: auto;
+				position: static;
+			}
 			
 			// wiki page headings
 			h3 {
-				margin-top: 0;
+				margin: 0;
 				font-size: 2em;
 				border-bottom: 2px solid #ff9d42;
+				line-height: 36px;
 			}
 			h4 {border-bottom: 2px solid #9e9e9e;}
 
@@ -162,12 +189,10 @@ li {
 				border-radius: 3px;
 		
 				a {
-// 					color: #333;
-					
 					font-size: 120%;
 					border-bottom: 2px solid #FCFCFC;
 					background-color: transparent;
-					transition: border-bottom 0.5s ease;
+					transition: color 0.5s ease, border-bottom 0.5s ease;
 				
 					&:hover {border-bottom: 2px solid #ff9d42;}
 				} // end a
@@ -247,15 +272,11 @@ li {
 		.quiz-header h1:first-child,
 		// Assignment Header
 		#assignment_show h1.title {
-/*
 			padding: 10px;
 			font-weight: 300;
-*/
 			background-color: #24618c;
-/*
 			color: white;
 			font-family: "Lato", sans-serif;
-*/
 		}
 	} 
 }
