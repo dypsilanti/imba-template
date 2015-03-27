@@ -280,14 +280,10 @@ li {
 		} // #discussion_topic
 		
 		// Quiz Header
-		.quiz-header h1:first-child,
+		h1#quiz_title,
 		// Assignment Header
 		#assignment_show h1.title {
-			padding: 10px;
-			font-weight: 300;
 			background-color: #24618c;
-			color: white;
-			font-family: "Lato", sans-serif;
 		}
 	} 
 }
